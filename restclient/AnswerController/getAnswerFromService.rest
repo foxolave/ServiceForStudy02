@@ -1,0 +1,13 @@
+### Получение ответа от сервиса
+GET http://localhost:8080/get_status
+Content-Type: application/json
+
+### responce example
+HTTP/1.1 200
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 25
+Date: Mon, 11 Mar 2024 13:15:36 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{"status":"Hello world!"}
